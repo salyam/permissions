@@ -1,0 +1,27 @@
+{
+    "name": "salyam/permissions",
+    "description": "A Laravel permission and role handler library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "salyam",
+            "email": "salyamos@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Salyam\\Permissions\\": "src/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "stable",
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Salyam\\Permissions\\PermissionsServiceProvider"
+            ]
+        }
+    }
+    
+}
